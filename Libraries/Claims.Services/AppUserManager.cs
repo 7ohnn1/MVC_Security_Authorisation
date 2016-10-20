@@ -2,11 +2,10 @@
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
-
-using Claims.Core.Infrastructure;
+using Claims.Model;
 using Claims.Data;
 
-namespace Claims.Services.Infrastructure
+namespace Claims.Services
 {
     //Manages user data
     public class AppUserManager : UserManager<AppUser>

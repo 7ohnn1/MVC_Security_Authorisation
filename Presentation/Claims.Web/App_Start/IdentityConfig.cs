@@ -4,7 +4,7 @@ using Microsoft.Owin.Security.Cookies;
 using Owin;
 
 using Claims.Data;
-using Claims.Services.Infrastructure;
+using Claims.Services;
 
 namespace Claims.Web
 {
