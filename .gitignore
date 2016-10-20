@@ -19,6 +19,10 @@ ipch
 *.aps
 *.eto
 
+# We do not need the database files in here
+*.ldf
+*.mdf
+
 x64/
 x86/
 build/
