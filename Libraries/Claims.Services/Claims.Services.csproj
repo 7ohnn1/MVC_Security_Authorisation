@@ -85,9 +85,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\AppUserManager.cs" />
-    <Compile Include="Infrastructure\CustomPasswordValidator.cs" />
-    <Compile Include="Infrastructure\CustomUserValidator.cs" />
+    <Compile Include="AppUserManager.cs" />
+    <Compile Include="CustomPasswordValidator.cs" />
+    <Compile Include="CustomUserValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,13 +95,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Claims.Core\Claims.Core.csproj">
-      <Project>{429DC2FB-D6E7-4732-A5E9-CB8E315A9BDE}</Project>
-      <Name>Claims.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Claims.Data\Claims.Data.csproj">
-      <Project>{153BC509-E17B-47D6-B3A5-518F9EC10E2F}</Project>
+      <Project>{153bc509-e17b-47d6-b3a5-518f9ec10e2f}</Project>
       <Name>Claims.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Claims.Model\Claims.Model.csproj">
+      <Project>{429dc2fb-d6e7-4732-a5e9-cb8e315a9bde}</Project>
+      <Name>Claims.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

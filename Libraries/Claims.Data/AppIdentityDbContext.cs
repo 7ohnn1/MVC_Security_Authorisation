@@ -1,4 +1,4 @@
-﻿using Claims.Core.Infrastructure;
+﻿using Claims.Model;
 using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Claims.Data

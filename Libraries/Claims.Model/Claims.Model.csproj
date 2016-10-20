@@ -7,8 +7,8 @@
     <ProjectGuid>{429DC2FB-D6E7-4732-A5E9-CB8E315A9BDE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Claims.Core</RootNamespace>
-    <AssemblyName>Claims.Core</AssemblyName>
+    <RootNamespace>Claims.Model</RootNamespace>
+    <AssemblyName>Claims.Model</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -57,7 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\AppUser.cs" />
+    <Compile Include="AppUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

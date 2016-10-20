@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Web", "Presentation\
 		{429DC2FB-D6E7-4732-A5E9-CB8E315A9BDE} = {429DC2FB-D6E7-4732-A5E9-CB8E315A9BDE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Core", "Libraries\Claims.Core\Claims.Core.csproj", "{429DC2FB-D6E7-4732-A5E9-CB8E315A9BDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Model", "Libraries\Claims.Model\Claims.Model.csproj", "{429DC2FB-D6E7-4732-A5E9-CB8E315A9BDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Data", "Libraries\Claims.Data\Claims.Data.csproj", "{153BC509-E17B-47D6-B3A5-518F9EC10E2F}"
 	ProjectSection(ProjectDependencies) = postProject

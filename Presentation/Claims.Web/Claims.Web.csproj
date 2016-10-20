@@ -171,7 +171,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\CreateUserViewModel.cs" />
+    <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -198,13 +198,13 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Libraries\Claims.Core\Claims.Core.csproj">
-      <Project>{429dc2fb-d6e7-4732-a5e9-cb8e315a9bde}</Project>
-      <Name>Claims.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Claims.Data\Claims.Data.csproj">
       <Project>{153BC509-E17B-47D6-B3A5-518F9EC10E2F}</Project>
       <Name>Claims.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\Claims.Model\Claims.Model.csproj">
+      <Project>{429dc2fb-d6e7-4732-a5e9-cb8e315a9bde}</Project>
+      <Name>Claims.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Claims.Services\Claims.Services.csproj">
       <Project>{ea33aca9-e46e-4cc2-81bb-9c07cdbb663f}</Project>

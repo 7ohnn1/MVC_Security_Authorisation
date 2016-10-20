@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Claims.Core.Infrastructure;
+using Claims.Model;
 using Microsoft.AspNet.Identity;
 
-namespace Claims.Services.Infrastructure
+namespace Claims.Services
 {
 
     public class CustomUserValidator : UserValidator<AppUser>
