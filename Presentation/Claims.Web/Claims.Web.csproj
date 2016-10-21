@@ -173,6 +173,11 @@
     </Compile>
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityInfrastructure\AppIdentityDbContext.cs" />
+    <Compile Include="SecurityInfrastructure\AppUserManager.cs" />
+    <Compile Include="SecurityInfrastructure\CustomPasswordValidator.cs" />
+    <Compile Include="SecurityInfrastructure\CustomUserValidator.cs" />
+    <Compile Include="SecurityInfrastructure\IdentityDbInit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -198,17 +203,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Libraries\Claims.Data\Claims.Data.csproj">
-      <Project>{153BC509-E17B-47D6-B3A5-518F9EC10E2F}</Project>
-      <Name>Claims.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Libraries\Claims.Model\Claims.Model.csproj">
-      <Project>{429dc2fb-d6e7-4732-a5e9-cb8e315a9bde}</Project>
+    <ProjectReference Include="..\..\Core\Claims.Model\Claims.Model.csproj">
+      <Project>{688E4D9F-4693-4E82-87F7-ECA1C27BA443}</Project>
       <Name>Claims.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Libraries\Claims.Services\Claims.Services.csproj">
-      <Project>{ea33aca9-e46e-4cc2-81bb-9c07cdbb663f}</Project>
-      <Name>Claims.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -1,7 +1,7 @@
-﻿using Claims.Model;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using Claims.Model.IdentitySecurity;
 
-namespace Claims.Data
+namespace Claims.Web.SecurityInfrastructure
 {
     public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {
