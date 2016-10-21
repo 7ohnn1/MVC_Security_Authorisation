@@ -9,8 +9,7 @@ namespace Claims.Web.SecurityInfrastructure
     public class CustomUserValidator : UserValidator<AppUser>
     {
 
-        public CustomUserValidator(AppUserManager mgr)
-            : base(mgr)
+        public CustomUserValidator(AppUserManager mgr) : base(mgr)
         {
         }
 
