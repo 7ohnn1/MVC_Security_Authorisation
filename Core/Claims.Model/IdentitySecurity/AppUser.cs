@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace Claims.Model
+namespace Claims.Model.IdentitySecurity
 {
     public class AppUser : IdentityUser
     {
