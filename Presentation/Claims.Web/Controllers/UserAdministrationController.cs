@@ -9,20 +9,17 @@ using Claims.Web.SecurityInfrastructure;
 
 namespace Claims.Web.Controllers
 {
+    //[Authorize(Roles = "Administrators")]
     public class UserAdministrationController : Controller
     {
+        private AppUserManager UserManager
+        {
+            get { return HttpContext.GetOwinContext().GetUserManager<AppUserManager>(); }
+        }
 
         public ActionResult Index()
         {
             return View(UserManager.Users);
-        }
-
-        private AppUserManager UserManager
-        {
-            get
-            {
-                return HttpContext.GetOwinContext().GetUserManager<AppUserManager>();
-            }
         }
 
         public ActionResult Create()
