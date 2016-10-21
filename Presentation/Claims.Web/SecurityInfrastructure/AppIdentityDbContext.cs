@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
+﻿using System.Data.Entity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using Claims.Model.IdentitySecurity;
 
 namespace Claims.Web.SecurityInfrastructure
@@ -9,12 +10,11 @@ namespace Claims.Web.SecurityInfrastructure
         {
         }
 
-/*
         static AppIdentityDbContext()
         {
             Database.SetInitializer<AppIdentityDbContext>(new IdentityDbInit());
         }
-*/
+
 
         //instance of the class are created via here when needed by the OWIN
         public static AppIdentityDbContext Create()

@@ -9,7 +9,7 @@ using Claims.Web.SecurityInfrastructure;
 
 namespace Claims.Web.Controllers
 {
-    //[Authorize(Roles = "Administrators")]
+    [Authorize(Roles = "Administrator")]
     public class UserAdministrationController : Controller
     {
         private AppUserManager UserManager

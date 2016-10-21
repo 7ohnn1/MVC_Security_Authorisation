@@ -13,7 +13,7 @@ using Microsoft.AspNet.Identity.Owin;
 namespace Claims.Web.Controllers
 {
 
-    //[Authorize(Roles = "Administrators")]
+    [Authorize(Roles = "Administrator")]
     public class RoleAdministrationController : Controller
     {
         private AppUserManager UserManager
