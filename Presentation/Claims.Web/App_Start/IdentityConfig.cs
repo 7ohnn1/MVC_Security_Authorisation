@@ -2,9 +2,7 @@
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
-
-using Claims.Data;
-using Claims.Services;
+using Claims.Web.SecurityInfrastructure;
 
 namespace Claims.Web
 {

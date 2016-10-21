@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace Claims.Data
+namespace Claims.Web.SecurityInfrastructure
 {
     public class IdentityDbInit : DropCreateDatabaseIfModelChanges<AppIdentityDbContext>
     {

@@ -3,9 +3,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.AspNet.Identity;
 using System.Threading.Tasks;
-using Claims.Model;
-using Claims.Services;
+using Claims.Model.IdentitySecurity;
 using Claims.Web.Models;
+using Claims.Web.SecurityInfrastructure;
 
 namespace Claims.Web.Controllers
 {
