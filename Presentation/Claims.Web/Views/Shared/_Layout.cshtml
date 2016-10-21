@@ -25,7 +25,18 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("User Administration", "Index", "UserAdministration")</li>
+                    <li>@Html.ActionLink("'Users' Only", "OtherAction", "Home")</li>
+                    <li>@Html.ActionLink("User Management", "Index", "UserAdministration")</li>
+                    <li>@Html.ActionLink("Role Management", "Index", "RoleAdministration")</li>
+                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+@if (Request.IsAuthenticated)
+{
+                    <li>@Html.ActionLink("Log off", "Logout", "Account")</li>
+} else {
+                    <li>@Html.ActionLink("Log in", "Login", "Account")</li>
+}
                 </ul>
             </div>
         </div>
@@ -34,5 +45,7 @@
         <br/>
         @RenderBody()
     </div>
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>

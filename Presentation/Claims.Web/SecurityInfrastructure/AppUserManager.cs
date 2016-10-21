@@ -50,5 +50,4 @@ namespace Claims.Web.SecurityInfrastructure
         }
 
     }
-
 }
