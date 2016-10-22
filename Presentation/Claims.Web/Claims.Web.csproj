@@ -167,6 +167,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClaimsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RoleAdministrationController.cs" />
     <Compile Include="Controllers\UserAdministrationController.cs" />
@@ -187,10 +188,13 @@
     <Compile Include="SecurityInfrastructure\AppIdentityDbContext.cs" />
     <Compile Include="SecurityInfrastructure\AppRoleManager.cs" />
     <Compile Include="SecurityInfrastructure\AppUserManager.cs" />
+    <Compile Include="SecurityInfrastructure\ClaimsAccessAttribute.cs" />
+    <Compile Include="SecurityInfrastructure\ClaimsRoles.cs" />
     <Compile Include="SecurityInfrastructure\CustomPasswordValidator.cs" />
     <Compile Include="SecurityInfrastructure\CustomUserValidator.cs" />
     <Compile Include="SecurityInfrastructure\IdentityDbInit.cs" />
     <Compile Include="SecurityInfrastructure\IdentityHelpers.cs" />
+    <Compile Include="SecurityInfrastructure\LocationClaimsProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -209,6 +213,7 @@
     <Content Include="Views\RoleAdministration\Edit.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\UserProps.cshtml" />
+    <Content Include="Views\Claims\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

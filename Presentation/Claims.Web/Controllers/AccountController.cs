@@ -53,6 +53,8 @@ namespace Claims.Web.Controllers
                 {
                     ClaimsIdentity ident = await UserManager.CreateIdentityAsync(user,
                         DefaultAuthenticationTypes.ApplicationCookie);
+                    ident.AddClaims(LocationClaimsProvider.GetClaims(ident));
+                    ident.AddClaims(ClaimsRoles.CreateRolesFromClaims(ident));
                     AuthManager.SignOut();
                     AuthManager.SignIn(new AuthenticationProperties { IsPersistent = false }, ident);
                     return Redirect(returnUrl);
