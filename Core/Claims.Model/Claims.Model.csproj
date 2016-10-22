@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="IdentitySecurity\AppRole.cs" />
     <Compile Include="IdentitySecurity\AppUser.cs" />
+    <Compile Include="IdentitySecurity\AppUserExtend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

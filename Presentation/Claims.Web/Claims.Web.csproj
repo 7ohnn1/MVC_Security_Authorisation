@@ -173,6 +173,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610220741386_CityProperty.cs" />
+    <Compile Include="Migrations\201610220741386_CityProperty.Designer.cs">
+      <DependentUpon>201610220741386_CityProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610220806393_CountryProperty.cs" />
+    <Compile Include="Migrations\201610220806393_CountryProperty.Designer.cs">
+      <DependentUpon>201610220806393_CountryProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityInfrastructure\AppIdentityDbContext.cs" />
@@ -199,6 +208,7 @@
     <Content Include="Views\RoleAdministration\Create.cshtml" />
     <Content Include="Views\RoleAdministration\Edit.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Home\UserProps.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -215,6 +225,14 @@
       <Project>{688E4D9F-4693-4E82-87F7-ECA1C27BA443}</Project>
       <Name>Claims.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201610220741386_CityProperty.resx">
+      <DependentUpon>201610220741386_CityProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610220806393_CountryProperty.resx">
+      <DependentUpon>201610220806393_CountryProperty.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
