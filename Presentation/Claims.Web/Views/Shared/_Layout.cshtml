@@ -26,9 +26,11 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("'Users' Only", "OtherAction", "Home")</li>
+                    <li>@Html.ActionLink("User Property", "UserProps", "Home")</li>
                     <li>@Html.ActionLink("User Management", "Index", "UserAdministration")</li>
                     <li>@Html.ActionLink("Role Management", "Index", "RoleAdministration")</li>
-                    
+                    <li>@Html.ActionLink("Claims", "Index", "Claims")</li>
+                    <li>@Html.ActionLink("DC Staff Role", "OtherAction", "Claims")</li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
 @if (Request.IsAuthenticated)
