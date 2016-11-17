@@ -3,6 +3,7 @@ using System.Reflection;
 using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
+using Claims.Services.IdentitySecurity;
 using Microsoft.AspNet.Identity.Owin;
 
 namespace Claims.Web.SecurityInfrastructure
