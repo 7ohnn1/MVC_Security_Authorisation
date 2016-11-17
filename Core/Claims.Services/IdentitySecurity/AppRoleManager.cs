@@ -1,11 +1,12 @@
 ﻿using System;
+using Claims.Db;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Claims.Model.IdentitySecurity;
 
-namespace Claims.Web.SecurityInfrastructure
+namespace Claims.Services.IdentitySecurity
 {
     public class AppRoleManager : RoleManager<AppRole>, IDisposable
     {

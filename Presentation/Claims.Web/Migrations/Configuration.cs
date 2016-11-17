@@ -1,8 +1,9 @@
 using System.Data.Entity.Migrations;
+using Claims.Db;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Claims.Model.IdentitySecurity;
-using Claims.Web.SecurityInfrastructure;
+using Claims.Services.IdentitySecurity;
 
 namespace Claims.Web.Migrations
 {

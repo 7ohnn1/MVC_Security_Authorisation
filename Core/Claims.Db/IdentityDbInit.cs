@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 
-namespace Claims.Web.SecurityInfrastructure
-{
+namespace Claims.Db
+{ 
     public class IdentityDbInit : NullDatabaseInitializer<AppIdentityDbContext>
     {
     }

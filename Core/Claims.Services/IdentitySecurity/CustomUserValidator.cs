@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Claims.Model.IdentitySecurity;
 
-namespace Claims.Web.SecurityInfrastructure
+namespace Claims.Services.IdentitySecurity
 {
 
     public class CustomUserValidator : UserValidator<AppUser>

@@ -5,7 +5,7 @@ using System.Web;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Claims.Model.IdentitySecurity;
-using Claims.Web.SecurityInfrastructure;
+using Claims.Services.IdentitySecurity;
 
 namespace Claims.Web.Controllers
 {

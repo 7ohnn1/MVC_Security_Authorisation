@@ -4,8 +4,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.AspNet.Identity;
 using System.Threading.Tasks;
 using Claims.Model.IdentitySecurity;
+using Claims.Services.IdentitySecurity;
 using Claims.Web.Models;
-using Claims.Web.SecurityInfrastructure;
 
 namespace Claims.Web.Controllers
 {

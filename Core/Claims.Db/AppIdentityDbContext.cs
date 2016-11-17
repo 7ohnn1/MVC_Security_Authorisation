@@ -2,7 +2,7 @@
 using Microsoft.AspNet.Identity.EntityFramework;
 using Claims.Model.IdentitySecurity;
 
-namespace Claims.Web.SecurityInfrastructure
+namespace Claims.Db
 {
     public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {

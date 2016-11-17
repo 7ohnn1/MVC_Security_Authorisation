@@ -6,6 +6,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using System.Web;
 using Claims.Model.IdentitySecurity;
+using Claims.Services.IdentitySecurity;
 using Claims.Web.Models;
 using Claims.Web.SecurityInfrastructure;
 

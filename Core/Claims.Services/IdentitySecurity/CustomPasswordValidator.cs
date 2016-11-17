@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 
-namespace Claims.Web.SecurityInfrastructure
+namespace Claims.Services.IdentitySecurity
 {
 
     public class CustomPasswordValidator : PasswordValidator
